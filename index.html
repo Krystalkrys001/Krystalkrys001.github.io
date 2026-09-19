@@ -461,7 +461,7 @@
 
 <footer id="footerText"></footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/email.js/3.2.0/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="content.js"></script>
 <script>
 (function(){
@@ -594,26 +594,35 @@
 
   // ---- EMAILJS CONTACT FORM ----
   if(window.emailjs && D.emailjs.publicKey){
-    emailjs.init(D.emailjs.publicKey);
+    emailjs.init({ publicKey: D.emailjs.publicKey });
   }
   document.getElementById('contactForm').addEventListener('submit', function(e){
     e.preventDefault();
     const status = document.getElementById('cf-status');
     const btn = document.getElementById('cf-submit');
     status.textContent = ''; status.className = 'form-status';
+
+    if(!window.emailjs){
+      status.textContent = 'Email service failed to load. Please try emailing directly.';
+      status.className = 'form-status err';
+      return;
+    }
+
     btn.disabled = true; btn.textContent = 'Sending…';
-    emailjs.sendForm(D.emailjs.serviceId, D.emailjs.templateId, this)
+    const formEl = this;
+
+    emailjs.sendForm(D.emailjs.serviceId, D.emailjs.templateId, formEl)
       .then(()=>{
         status.textContent = 'Message sent — thank you, I\'ll reply soon.';
         status.className = 'form-status ok';
         btn.disabled = false; btn.textContent = 'Send Message';
-        document.getElementById('contactForm').reset();
+        formEl.reset();
       })
       .catch((err)=>{
         status.textContent = 'Something went wrong. Please try emailing directly.';
         status.className = 'form-status err';
         btn.disabled = false; btn.textContent = 'Send Message';
-        console.error(err);
+        console.error('EmailJS error:', err);
       });
   });
 })();
