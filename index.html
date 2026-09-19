@@ -66,7 +66,7 @@
   }
 
   /* HERO */
-  .hero{padding:88px 0 80px;}
+  .hero{padding:88px 0 80px; overflow:hidden;}
   .eyebrow{font-family:'JetBrains Mono',monospace; color:var(--green); font-size:13px; letter-spacing:.02em; margin-bottom:18px; display:flex; align-items:center; gap:8px;}
   .eyebrow .dot{width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 8px var(--green); animation:pulse 2s infinite;}
   @keyframes pulse{0%,100%{opacity:1;} 50%{opacity:.4;}}
@@ -82,11 +82,13 @@
   .btn-ghost{border-color:var(--border); color:var(--text);}
   .btn-ghost:hover{border-color:var(--green); color:var(--green);}
   .hero-stats{display:flex; gap:40px; margin-top:56px; flex-wrap:wrap;}
+  .hero-grid{display:grid; grid-template-columns:1.15fr 0.85fr; gap:32px; align-items:center;}
+  @media(max-width:860px){ .hero-grid{grid-template-columns:1fr; gap:8px;} .hero-photo-wrap{justify-self:center; margin-top:12px;} }
   .stat .value{font-family:'JetBrains Mono',monospace; font-size:30px; font-weight:700; color:var(--gold);}
   .stat .label{color:var(--text-faint); font-size:13px; margin-top:4px;}
 
   /* HERO PHOTO */
-  .hero-photo-wrap{position:relative; width:fit-content; padding:30px;}
+  .hero-photo-wrap{position:relative; width:fit-content; padding:30px; justify-self:center;}
   .hp-frame{
     position:relative; width:280px; height:280px; border-radius:24px; padding:5px;
     background:linear-gradient(135deg, var(--gold), var(--green), var(--gold));
@@ -262,6 +264,27 @@
   a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{outline:2px solid var(--green); outline-offset:2px;}
   @media (prefers-reduced-motion: reduce){ *{animation:none !important; transition:none !important;} }
 </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Chukwuma Obinna Ulasi",
+  "alternateName": ["Chukwuma Ulasi", "Obinna Ulasi", "Krystalkrys001"],
+  "url": "https://krystalkrys001.github.io/",
+  "image": "https://krystalkrys001.github.io/imgs/profile.jpeg",
+  "jobTitle": "Data Analyst",
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Lagos, Nigeria"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/chukwuma-obinna-ulasi-082198413/",
+    "https://github.com/Krystalkrys001",
+    "https://medium.com/@ChukwumaObinnaUlasi",
+    "https://linktr.ee/ChukwumaObinnaUlasi"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -284,20 +307,17 @@
 
 <div id="top"></div>
 <section class="hero">
-  <div class="wrap">
-    <div class="eyebrow"><span class="dot"></span><span id="heroEyebrow"></span></div>
-    <h1 class="headline" id="heroHeadline"></h1>
-    <p class="hero-sub" id="heroSub"></p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn btn-primary">View Projects</a>
-      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <div class="eyebrow"><span class="dot"></span><span id="heroEyebrow"></span></div>
+      <h1 class="headline" id="heroHeadline"></h1>
+      <p class="hero-sub" id="heroSub"></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-stats" id="heroStats"></div>
     </div>
-    <div class="hero-stats" id="heroStats"></div>
-  </div>
-</section>
-
-<section style="padding-top:0; padding-bottom:40px; overflow:hidden;">
-  <div class="wrap">
     <div class="hero-photo-wrap">
       <div class="hp-blob hp-blob-1"></div>
       <div class="hp-blob hp-blob-2"></div>
