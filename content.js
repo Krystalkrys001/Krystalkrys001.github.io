@@ -61,12 +61,12 @@ window.SITE_DATA = {
       body: "Worked with crypto communities as a Community Manager, Shiller and Raider, creating graphics and digital content across projects.",
     },
     {
-      year: "2025",
+      year: "2022 - Present",
       title: "Full-Stack Deep Dive & First Live Site",
       body: "Enrolled in two Udemy full-stack courses, then built and deployed a complete website from scratch. Also explored AI prompt engineering and copywriting, capped with a 37-day public challenge on X.",
     },
     {
-      year: "2025 till Date",
+      year: "2025 - Present",
       title: "Data Analytics, Full Commitment",
       body: "Went deep on Excel, SQL, Power BI, and Python. Shipped real projects on real datasets, DataCo, Discount Motors, TomaLink, Spotify, CollabNest, then advanced into machine learning and NLP through DecodeLabs.",
     },
@@ -93,7 +93,6 @@ window.SITE_DATA = {
       dates: "2025",
       title: "B.Sc., Second Class Honours (Upper Division)",
       org: "University of Benin",
-      body: "Animal and Environmental Biology, Zoology.",
     },
   ],
 
@@ -305,7 +304,7 @@ window.SITE_DATA = {
     {
       title: "Claude 101",
       issuer: "Anthropic",
-      meta: "",
+      meta: "Completed September 2026",
       verifyUrl: "https://verify.skilljar.com/c/uyt4st44b2j9",
     },
     {
@@ -335,12 +334,12 @@ window.SITE_DATA = {
     {
       title: "Data Analytics Bootcamp",
       issuer: "TechyJaunt",
-      meta: "3-month program — Excel, SQL, Power BI, Python",
+      meta: "- Excel, SQL, Power BI, Python",
       verifyUrl: "",
     },
     {
       title: "Data Science Industrial Training",
-      issuer: "DecodeLabs",
+      issuer: "INTERNSHIP - DecodeLabs",
       meta: "2026 Batch — EDA, Supervised & Unsupervised Learning, NLP",
       verifyUrl: "",
     },
