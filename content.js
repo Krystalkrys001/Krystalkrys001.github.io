@@ -93,6 +93,7 @@ window.SITE_DATA = {
       dates: "2025",
       title: "B.Sc., Second Class Honours (Upper Division)",
       org: "University of Benin",
+      body: "Graduated.",
     },
   ],
 
@@ -100,6 +101,10 @@ window.SITE_DATA = {
   // SKILLS — grouped stacks
   // ============================================================
   skills: [
+     {
+      group: "Tools I Work With",
+      items: ["Microsoft Excel / Google Sheet, "PowerBi", "PostgreSQL", "Python", "Copilot", "ClaudeAi", "ChatGPT", "GrokAi", "GeminiAi",  ],
+    },
     {
       group: "Data & Querying",
       items: ["SQL (PostgreSQL)", "pgAdmin4", "Python", "Pandas", "NumPy", "Jupyter Notebook / Anaconda"],
@@ -119,10 +124,6 @@ window.SITE_DATA = {
     {
       group: "Web & Design",
       items: ["HTML / CSS / JavaScript", "Photoshop", "CorelDRAW", "Canva", "CapCut"],
-    },
-    {
-      group: "Tools",
-      items: ["Microsoft Excel / Google Sheet / Powerbi", "PostgreSQL", "Python", "Copilot", "Claude", "ChatGPT", "Grok"  ],
     },
   ],
 
