@@ -33,7 +33,7 @@ window.SITE_DATA = {
 
   about: {
     heading: "I clean, question, and correct data before I trust it enough to act on it.",
-    body: "I'm a Data Analyst working in Excel, SQL, PostgreSQL, and Power BI, with a background in front-end development, graphic design, and video editing that sharpens how I think about turning raw, scattered information into clear, business-ready insight. B.Sc. graduate (Second Class Honours, Upper Division) in Animal and Environmental Biology, University of Benin, a background in structured observation and evidence-based conclusions that transfers directly into analytical work. TechyJaunt Data Analytics Bootcamp, 3 months, hands-on projects, not just theory. Excel, SQL, and Power BI, applied to real business questions, not just tutorials.",
+    body: "I'm a Data Analyst working in Excel, SQL, PostgreSQL, and Power BI, with a background in front-end development, graphic design, and video editing that sharpens how I think about turning raw, scattered information into clear, business-ready insight. B.Sc. graduate (Second Class Honours, Upper Division).",
     correction: {
       label: "Real correction, from a live project",
       headline: "Reported hybrid price premium: 35% → 29%, recalculated from source data",
@@ -66,12 +66,7 @@ window.SITE_DATA = {
       body: "Enrolled in two Udemy full-stack courses, then built and deployed a complete website from scratch. Also explored AI prompt engineering and copywriting, capped with a 37-day public challenge on X.",
     },
     {
-      year: "Sept 2025",
-      title: "Graduated, University of Benin",
-      body: "B.Sc. Animal and Environmental Biology, Second Class Honours, Upper Division.",
-    },
-    {
-      year: "2026",
+      year: "2025 till Date",
       title: "Data Analytics, Full Commitment",
       body: "Went deep on Excel, SQL, Power BI, and Python. Shipped real projects on real datasets, DataCo, Discount Motors, TomaLink, Spotify, CollabNest, then advanced into machine learning and NLP through DecodeLabs.",
     },
@@ -125,6 +120,10 @@ window.SITE_DATA = {
     {
       group: "Web & Design",
       items: ["HTML / CSS / JavaScript", "Photoshop", "CorelDRAW", "Canva", "CapCut"],
+    },
+    {
+      group: "Tools",
+      items: ["Microsoft Excel / Google Sheet / Powerbi", "PostgreSQL", "Python", "Copilot", "Claude", "ChatGPT", "Grok"  ],
     },
   ],
 
