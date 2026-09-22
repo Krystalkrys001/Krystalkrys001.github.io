@@ -103,7 +103,7 @@ window.SITE_DATA = {
   skills: [
      {
       group: "Tools I Work With",
-      items: ["Microsoft Excel / Google Sheet, "PostgreSQL", "PowerBi", "Python", "Copilot", "ClaudeAi", "ChatGPT", "GeminiAi",],
+      items: ["Microsoft Excel / Google Sheet, "PostgreSQL", "PowerBi", "Python", "Copilot", "ClaudeAi", "ChatGPT"],
     },
     {
       group: "Data & Querying",
