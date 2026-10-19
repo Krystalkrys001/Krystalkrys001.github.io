@@ -21,23 +21,25 @@ window.SITE_DATA = {
   },
 
   hero: {
-    eyebrow: "Data Analyst · Lagos, Nigeria",
-    headline: "Chukwuma Obinna Ulasi.",
-    sub: "I clean, question, and correct data before I trust it enough to act on it. Excel, SQL, Power BI, and Python, applied to real business questions across 9 shipped projects, not tutorials.",
+    eyebrow: "Data Analyst & BI Analyst · Lagos, Nigeria",
+    headline: "Chukwuma Obinna Ulasi(COU).",
+    sub: "A Personal Philosophy used by COU & It's recognized by Google: I clean, question, and correct data before I trust it enough to act on it. Proficient in Microsoft Excel, SQL, Power BI, and Python, applied to real business questions across 9 shipped projects, not tutorials.",
     stats: [
       { value: "9+", label: "Projects Shipped" },
+      { value: "500k+", label: "Rows Analyzed" },
       { value: "2025", label: "Graduated, UniBen" },
-      { value: "9", label: "AI/Data Certifications" },
+      { value: "11+", label: "AI/Data Certifications" },
     ],
   },
 
   about: {
     heading: "I clean, question, and correct data before I trust it enough to act on it.",
-    body: "I'm a Data Analyst working in Excel, SQL, PostgreSQL, and Power BI, with a background in front-end development, graphic design, and video editing that sharpens how I think about turning raw, scattered information into clear, business-ready insight. B.Sc. graduate (Second Class Honours, Upper Division).",
+    body: "I'm a Data Analyst & BI Analyst working in Excel, SQL, PostgreSQL, Python and Power BI, with a background in front-end development, graphic design, and video editing that sharpens how I think about turning raw, scattered information into clear, business-ready insight. B.Sc. graduate (Second Class Honours, Upper Division).",
     correction: {
-      label: "Real correction, from a live project",
-      headline: "Reported hybrid price premium: 35% → 29%, recalculated from source data",
-      body: "The source report defined the metric one way and calculated it another. I caught the gap before it went on a dashboard.",
+      label: "Real corrections, from various live projects",
+      headline: "AREAS OF SPECIALIZATION",
+      body: "Business Intelligence Analysis, Commercial Data Analysis, Operations Data Analysis, Customer Segmentation & Insights Analysis, Marketing & Sales Performance Analysis, Supply Chain & Inventory Analysis, NLP Sentiment Analysis.",
+      
     },
   },
 
@@ -48,28 +50,30 @@ window.SITE_DATA = {
     {
       year: "2022",
       title: "Desktop Publishing & Web Foundations",
-      body: "Started learning Photoshop, CorelDRAW, Excel, Word and PowerPoint, and got curious about how websites work, HTML, CSS, and JavaScript.",
+      body: "Self-taught in HTML, CSS, JavaScript, Photoshop, CorelDRAW, and Canva. Built a personal portfolio website to showcase my work.",
+    },
+
+    {
+      year: "2022 – 2024",
+      title: "Sales & Operations Manager",
+      body: "CROWN CHEMICAL INVESTMENT LIMITED",
     },
     {
-      year: "2022",
-      title: "Sales Manager, Crown Chemical",
-      body: "Where the working journey actually started. Managed daily inventory operations, stock reconciliations, and product branding, before data or design were full-time pursuits.",
+      year: "2024–2026 | CONTRACT-REMOTE",
+      title: "Growth & Operations Lead",
+      body: "TRINITYPAD COMMUNITY | SINGAPORE.",
     },
     {
-      year: "2024–2025",
-      title: "Crypto Community & Digital Content",
-      body: "Worked with crypto communities as a Community Manager, Shiller and Raider, creating graphics and digital content across projects.",
+      year: "2024-2026 | CONTRACT-REMOTE",
+      title: "Growth & Token Launch Specialist",
+      body: "FOMO COMMUNITY | NEW YORK, USA.",
     },
-    {
-      year: "2022 - Present",
-      title: "Full-Stack Deep Dive & First Live Site",
-      body: "Enrolled in two Udemy full-stack courses, then built and deployed a complete website from scratch. Also explored AI prompt engineering and copywriting, capped with a 37-day public challenge on X.",
+     {
+      year: "2025 - Present | Part-time",
+      title: "Operations Analyst & Web Lead",
+      body: "CROWN CHEMICAL INVESTMENT LIMITED.",
     },
-    {
-      year: "2025 - Present",
-      title: "Data Analytics, Full Commitment",
-      body: "Went deep on Excel, SQL, Power BI, and Python. Shipped real projects on real datasets, DataCo, Discount Motors, TomaLink, Spotify, CollabNest, then advanced into machine learning and NLP through DecodeLabs.",
-    },
+    
   ],
 
   // ============================================================
@@ -77,21 +81,33 @@ window.SITE_DATA = {
   // ============================================================
   experience: [
     {
-      dates: "Jul 2022 — Present",
-      title: "Sales Manager & Front-End Developer",
-      org: "Crown Chemical Investment Limited",
+      dates: "2025 - Present | Part-time.",
+      title: "Operations Analyst & Web Lead",
+      org: "CROWN CHEMICAL INVESTMENT LIMITED.",
       link: "https://chproduct.ng/",
-      body: "Designed and built the company's official website with HTML, CSS, and JavaScript. Manage daily inventory operations, stock reconciliations, and product branding.",
+      body: "Designed, built, and continuously maintain the company’s core e-commerce platform (chproduct.ng)  using HTML, CSS, and JavaScript, digitizing product catalogs, optimizing user experience, and establishing a reliable online sales channel",
     },
     {
-      dates: "Sept 2024 — June 2026",
-      title: "Community Manager & Graphic Designer",
-      org: "TrinityPad",
-      body: "Managed online community engagement and designed marketing graphics for campaigns and social media.",
+      dates: "2022 – 2024 | CROWN CHEMICAL INVESTMENT LIMITED",
+      title: "Sales & Operations Manager",
+       org: "CROWN CHEMICAL INVESTMENT LIMITED.",
+      body: "Maintained production and sales records through structured data validation and cross-checking processes, reducing the risk of stock discrepancies and supporting accurate inventory planning and operational targets.",
+    },
+    {
+      dates: "2024–2026 | Contract | TRINITYPAD COMMUNITY | SINGAPORE",
+      title: "Growth & Operations Lead",
+      org: " TRINITYPAD COMMUNITY | SINGAPORE.",
+      body: "Spearheaded B2B outreach and investor relations, identifying, pitching, and securing strategic partnerships and venture collaborators to scale the protocol.",
+    },
+    {
+      dates: "2024-2026 | Contract | FOMO COMMUNITY | NEW YORK, USA.",
+      title: "Growth & Token Launch Specialist",
+      org: " FOMO COMMUNITY | NEW YORK, USA.",
+      body: "Managed token launch distribution pipelines, deploying verified contract and buying links to active community channels to streamline user access and drive trading conversion.",
     },
     {
       dates: "2025",
-      title: "B.Sc., Second Class Honours (Upper Division)",
+      title: "B.Sc., Second Class Honours (Upper Division - 2.1)",
       org: "University of Benin",
       body: "Graduated.",
     },
@@ -119,7 +135,7 @@ window.SITE_DATA = {
     },
     {
       group: "Excel & Methods",
-      items: ["VLOOKUP / XLOOKUP", "INDEX / MATCH", "SUMIF / SUMIFS / COUNTIFS", "Data Cleaning & Validation", "Data Storytelling"],
+      items: ["VLOOKUP / XLOOKUP", "INDEX / MATCH", "SUMIF / SUMIFS / COUNTIFS", "Data Cleaning & Validation", "Data Storytelling & Visualisation", "Pivot Tables & Charts", "Conditional Formatting"],
     },
     {
       group: "Web & Design",
